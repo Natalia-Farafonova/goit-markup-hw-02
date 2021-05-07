@@ -1,3 +1,246 @@
-body {
-  background-color: tomato;
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --dominante-color: #757575;
 }
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--dominante-color);
+}
+
+/* =========COMPONENTS======== */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.title-what-are-we-doing {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* =========END COMPONENTS====== */
+
+/*============HEADER========= */
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+  color: var(--accent-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* =======END HEADER====== */
+
+/* =======HERO========= */
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--accent-color);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+}
+
+/* =========END HERO======== */
+
+/* ========FEATURES======== */
+
+.title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ========END FEATURES===== */
+
+/* ========WHAT ARE WE DOING====== */
+
+/* ========END WHAT WE DOING====== */
+
+/* ========OUR TEAM=========== */
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.our-team-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ========END OUR TEAM======= */
+
+/* ========FOOTER======= */
+
+.footer {
+  background: #2f303a;
+}
+
+.description-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--dominante-color);
+}
+
+.footer-mail:hover,
+.footer-tel:focus {
+  color: var(--dominante-color);
+}
+/* =========END FOOTER======= */
+
+/* ============FILTERS======= */
+
+.filters-btm {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.filters-btm:hover,
+.filters-btm:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+/* ============END FILTERS========= */
+
+/* ============PROJECT============= */
+
+.title-project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.description-project {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* ============END PROJECT======= */
