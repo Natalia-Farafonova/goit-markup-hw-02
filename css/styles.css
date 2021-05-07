@@ -51,8 +51,7 @@ body {
 
 /*============HEADER========= */
 .menu-link:hover,
-.menu-link:focus,
-.menu-link:active {
+.menu-link:focus {
   color: var(--accent-color);
 }
 
@@ -88,6 +87,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.menu-item .menu-link.link.current {
+  color: var(--accent-color);
 }
 
 /* =======END HEADER====== */
